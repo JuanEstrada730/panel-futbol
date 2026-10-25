@@ -47,7 +47,6 @@ npm run dev
 
 - `src/App.jsx` → componente principal, tiene los estados de partidos y filtro
 - `src/components/TarjetaEquipo.jsx` → tarjeta de cada equipo
-- `src/components/Escudo.jsx` → dibuja el escudo en SVG
 - `src/components/FormularioPartido.jsx` → formulario para registrar partidos y sus validaciones
 - `src/components/ResultadoPartido.jsx` → muestra un partido con escudos, nombres y marcador
 - `src/components/HistorialPartidos.jsx` → lista de partidos, filtro y botón de eliminar
