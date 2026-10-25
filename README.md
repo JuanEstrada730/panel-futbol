@@ -41,7 +41,7 @@ npm install
 npm run dev
 ```
 
-5. Abrir en el navegador la dirección que sale en la terminal (casi siempre `http://localhost:5173`).
+5. Abrir en el navegador la dirección que sale en la terminal.
 
 ## Archivos del proyecto
 
