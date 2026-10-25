@@ -1,0 +1,169 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+}
+
+.seccion {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* equipos */
+.equipos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.tarjeta-equipo {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.tarjeta-equipo h3 {
+  font-size: 16px;
+  margin: 5px 0 0;
+}
+
+.escudo {
+  object-fit: contain;
+}
+
+/* formulario */
+.fila-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.campo-goles {
+  flex: 0 0 80px;
+}
+
+select,
+input {
+  padding: 6px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 6px 12px;
+}
+
+.error {
+  color: red;
+}
+
+.ultimo-partido {
+  margin-top: 15px;
+}
+
+/* partidos */
+.resultado {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.resultado-equipo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 120px;
+  text-align: center;
+}
+
+.marcador {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.filtro {
+  margin-bottom: 10px;
+}
+
+.lista-partidos {
+  list-style: none;
+  padding: 0;
+}
+
+.item-partido {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.mensaje-vacio {
+  color: gray;
+}
+
+/* tabla */
+.tabla-contenedor {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ccc;
+  padding: 6px;
+  text-align: center;
+}
+
+.col-equipo {
+  text-align: left;
+}
+
+.celda-equipo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.puntos {
+  font-weight: bold;
+}
+
+/* celular */
+@media (max-width: 600px) {
+  .equipos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .item-partido {
+    flex-direction: column;
+  }
+
+  .resultado-equipo {
+    width: 80px;
+    font-size: 13px;
+  }
+}
