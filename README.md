@@ -7,7 +7,7 @@ Proyecto hecho con React para la materia. Es una página para un torneo de fútb
 
 ## Qué hace
 
-- Muestra 6 equipos con su escudo (los escudos los hice en SVG).
+- Muestra 6 equipos con su escudo.
 - Permite registrar un partido escogiendo local, visitante y el marcador.
 - Valida que no se escoja el mismo equipo dos veces y que los goles sean números enteros mayores o iguales a 0.
 - Muestra todos los partidos registrados y se pueden filtrar por equipo.
